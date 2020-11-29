@@ -1,5 +1,13 @@
-import logo from './logo.svg';
+import Profile from './components/Profile/Profile';
+import user from './user.json';
 
+<Profile
+  name={user.name}
+  tag={user.tag}
+  location={user.location}
+  avatar={user.avatar}
+  stats={user.stats}
+/>
 
 function App() {
   return (

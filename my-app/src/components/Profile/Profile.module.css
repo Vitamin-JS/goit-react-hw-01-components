@@ -1,0 +1,37 @@
+.genral-font {
+  font-size: 14px;
+  color: rgb(69, 62, 87);
+  line-height: 1.4;
+  padding: 3px;
+}
+
+.profile {
+}
+
+.description {
+}
+
+.avatar {
+}
+
+.name {
+  composes: general-font;
+}
+
+.tag {
+  composes: general-font;
+}
+
+.location {
+  composes: general-font;
+}
+
+.stats {
+}
+
+.label {
+  composes: general-font;
+}
+
+.quantity {
+}

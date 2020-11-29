@@ -1,18 +1,13 @@
 import PropTypes from 'prop-types';
-import s from './Friend.modele.css';
+import s from './Friends.module.css';
 
-const profileOptions = { name, tag, location, avatar, stats };
+const options = { name, tag, location, avatar, stats };
 
-function Profile(profileOptions) { };
+function Friends(options) { };
 
 Friends.propTypes = {
 
 };
 
-export default Profile;
+export default Friends;
 
-// name — имя пользователя
-// tag — тег в социальной сети без @
-// location — город и страна
-// avatar — url на изображение
-// stats — объект с информацией об активности
