@@ -1,4 +1,4 @@
-import PropTypes, { arrayOf } from 'prop-types';
+import PropTypes from 'prop-types';
 import randomColor from './randomColor';
 import s from './Statistics.module.css';
 

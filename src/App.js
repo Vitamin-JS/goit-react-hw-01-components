@@ -3,7 +3,9 @@ import user from './components/Profile/user.json';
 
 import Statistics from './components/Statistics/Statistics';
 import statisticalData from './components/Statistics/statistical-data.json';
-import { directive } from '@babel/types';
+
+import FriendList from './components/FriendList/FriendList';
+import friends from './components/FriendList/friends.json';
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
       <Statistics stats={statisticalData} />
 
       {/* =================  Task #3  =========================== */}
+      <FriendList friends={friends} />
 
       {/* =================  Task #4  =========================== */}
     </div>
