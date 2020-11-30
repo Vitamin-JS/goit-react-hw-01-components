@@ -7,6 +7,9 @@ import statisticalData from './components/Statistics/statistical-data.json';
 import FriendList from './components/FriendList/FriendList';
 import friends from './components/FriendList/friends.json';
 
+import transactions from './components/Transactions/transactions.json';
+import TransactionHistory from './components/Transactions/TransactionHistory';
+
 function App() {
   return (
     <div>
@@ -27,6 +30,7 @@ function App() {
       <FriendList friends={friends} />
 
       {/* =================  Task #4  =========================== */}
+      <TransactionHistory items={transactions} />
     </div>
   );
 }

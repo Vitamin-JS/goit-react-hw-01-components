@@ -1,0 +1,22 @@
+.transactionHistory {
+  margin-top: 30px;
+  text-align: center;
+  border-collapse: collapse; /* Убирает двойную линию между ячейками */
+}
+
+.item {
+  padding: 10px;
+  width: 150px;
+  border: 2px solid rgb(24, 23, 23);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.tableHead {
+  background-color: rgb(39, 39, 143);
+  color: rgb(231, 225, 225);
+}
+
+.row:nth-child(2n) {
+  background-color: rgba(198, 217, 224, 0.9);
+}
